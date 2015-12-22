@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E7FE9971C29858F00E51182 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FE9961C29858F00E51182 /* main.m */; };
+		3E7FE99A1C29858F00E51182 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FE9991C29858F00E51182 /* AppDelegate.m */; };
+		3E7FE99D1C29858F00E51182 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FE99C1C29858F00E51182 /* ViewController.m */; };
+		3E7FE9A01C29858F00E51182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7FE99E1C29858F00E51182 /* Main.storyboard */; };
+		3E7FE9A21C29858F00E51182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7FE9A11C29858F00E51182 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E7FE9921C29858F00E51182 /* AVPlayerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7FE9961C29858F00E51182 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E7FE9981C29858F00E51182 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E7FE9991C29858F00E51182 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E7FE99B1C29858F00E51182 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E7FE99C1C29858F00E51182 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E7FE99F1C29858F00E51182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E7FE9A11C29858F00E51182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E7FE9A31C29858F00E51182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E7FE98F1C29858F00E51182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7FE9891C29858F00E51182 = {
+			isa = PBXGroup;
+			children = (
+				3E7FE9941C29858F00E51182 /* AVPlayerTest */,
+				3E7FE9931C29858F00E51182 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E7FE9931C29858F00E51182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E7FE9921C29858F00E51182 /* AVPlayerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E7FE9941C29858F00E51182 /* AVPlayerTest */ = {
+			isa = PBXGroup;
+			children = (
+				3E7FE9981C29858F00E51182 /* AppDelegate.h */,
+				3E7FE9991C29858F00E51182 /* AppDelegate.m */,
+				3E7FE99B1C29858F00E51182 /* ViewController.h */,
+				3E7FE99C1C29858F00E51182 /* ViewController.m */,
+				3E7FE99E1C29858F00E51182 /* Main.storyboard */,
+				3E7FE9A11C29858F00E51182 /* Assets.xcassets */,
+				3E7FE9A31C29858F00E51182 /* Info.plist */,
+				3E7FE9951C29858F00E51182 /* Supporting Files */,
+			);
+			path = AVPlayerTest;
+			sourceTree = "<group>";
+		};
+		3E7FE9951C29858F00E51182 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E7FE9961C29858F00E51182 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E7FE9911C29858F00E51182 /* AVPlayerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7FE9A61C29858F00E51182 /* Build configuration list for PBXNativeTarget "AVPlayerTest" */;
+			buildPhases = (
+				3E7FE98E1C29858F00E51182 /* Sources */,
+				3E7FE98F1C29858F00E51182 /* Frameworks */,
+				3E7FE9901C29858F00E51182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVPlayerTest;
+			productName = AVPlayerTest;
+			productReference = 3E7FE9921C29858F00E51182 /* AVPlayerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E7FE98A1C29858F00E51182 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Homegrown Software";
+				TargetAttributes = {
+					3E7FE9911C29858F00E51182 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3E7FE98D1C29858F00E51182 /* Build configuration list for PBXProject "AVPlayerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E7FE9891C29858F00E51182;
+			productRefGroup = 3E7FE9931C29858F00E51182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E7FE9911C29858F00E51182 /* AVPlayerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E7FE9901C29858F00E51182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7FE9A21C29858F00E51182 /* Assets.xcassets in Resources */,
+				3E7FE9A01C29858F00E51182 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E7FE98E1C29858F00E51182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7FE99D1C29858F00E51182 /* ViewController.m in Sources */,
+				3E7FE99A1C29858F00E51182 /* AppDelegate.m in Sources */,
+				3E7FE9971C29858F00E51182 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E7FE99E1C29858F00E51182 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E7FE99F1C29858F00E51182 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E7FE9A41C29858F00E51182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3E7FE9A51C29858F00E51182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E7FE9A71C29858F00E51182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AVPlayerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homegrownsw.AVPlayerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E7FE9A81C29858F00E51182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AVPlayerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homegrownsw.AVPlayerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E7FE98D1C29858F00E51182 /* Build configuration list for PBXProject "AVPlayerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7FE9A41C29858F00E51182 /* Debug */,
+				3E7FE9A51C29858F00E51182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7FE9A61C29858F00E51182 /* Build configuration list for PBXNativeTarget "AVPlayerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7FE9A71C29858F00E51182 /* Debug */,
+				3E7FE9A81C29858F00E51182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E7FE98A1C29858F00E51182 /* Project object */;
+}

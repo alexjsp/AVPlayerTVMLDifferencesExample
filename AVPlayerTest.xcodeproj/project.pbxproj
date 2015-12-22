@@ -12,6 +12,8 @@
 		3E7FE99D1C29858F00E51182 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FE99C1C29858F00E51182 /* ViewController.m */; };
 		3E7FE9A01C29858F00E51182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7FE99E1C29858F00E51182 /* Main.storyboard */; };
 		3E7FE9A21C29858F00E51182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7FE9A11C29858F00E51182 /* Assets.xcassets */; };
+		3E7FE9AA1C2985DF00E51182 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7FE9A91C2985DF00E51182 /* AVKit.framework */; };
+		3E7FE9AF1C29A38C00E51182 /* tvmlplayer.js in Resources */ = {isa = PBXBuildFile; fileRef = 3E7FE9AE1C29A38C00E51182 /* tvmlplayer.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3E7FE99F1C29858F00E51182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E7FE9A11C29858F00E51182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7FE9A31C29858F00E51182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7FE9A91C2985DF00E51182 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		3E7FE9AE1C29A38C00E51182 /* tvmlplayer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tvmlplayer.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7FE9AA1C2985DF00E51182 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 		3E7FE9891C29858F00E51182 = {
 			isa = PBXGroup;
 			children = (
+				3E7FE9A91C2985DF00E51182 /* AVKit.framework */,
 				3E7FE9941C29858F00E51182 /* AVPlayerTest */,
 				3E7FE9931C29858F00E51182 /* Products */,
 			);
@@ -60,6 +66,7 @@
 				3E7FE9991C29858F00E51182 /* AppDelegate.m */,
 				3E7FE99B1C29858F00E51182 /* ViewController.h */,
 				3E7FE99C1C29858F00E51182 /* ViewController.m */,
+				3E7FE9AE1C29A38C00E51182 /* tvmlplayer.js */,
 				3E7FE99E1C29858F00E51182 /* Main.storyboard */,
 				3E7FE9A11C29858F00E51182 /* Assets.xcassets */,
 				3E7FE9A31C29858F00E51182 /* Info.plist */,
@@ -134,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E7FE9A21C29858F00E51182 /* Assets.xcassets in Resources */,
+				3E7FE9AF1C29A38C00E51182 /* tvmlplayer.js in Resources */,
 				3E7FE9A01C29858F00E51182 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +296,7 @@
 				3E7FE9A81C29858F00E51182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
